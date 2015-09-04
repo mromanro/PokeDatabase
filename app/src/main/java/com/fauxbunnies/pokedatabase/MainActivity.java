@@ -1,6 +1,8 @@
 package com.fauxbunnies.pokedatabase;
 
 import android.app.Activity;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -37,8 +39,15 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pokemonSets = (ListView)findViewById(R.id.pokemonsets);
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
 
+        ListsFragment listsFragment = new ListsFragment();
+
+        if(fm.findFragmentById(android.R.id.content) == null) {
+            ft.add(android.R.id.content, listsFragment);
+            ft.commit();
+        }
         /*
         splash = (ImageView) findViewById(R.id.splashimage);
         Message msg = new Message();
