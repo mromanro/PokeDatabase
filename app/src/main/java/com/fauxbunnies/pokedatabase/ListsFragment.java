@@ -19,10 +19,15 @@ public class ListsFragment extends ListFragment {
 
     ArrayAdapter adapter;
     ArrayList<String> list;
+    int size = 0;
+
+    public ListsFragment (int size) {
+        this.size = size;
+    }
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
-        ListsFragment listsFragment= new ListsFragment();
+        ListsFragment listsFragment= new ListsFragment(5);
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         ft.replace(android.R.id.content, listsFragment);
@@ -34,9 +39,8 @@ public class ListsFragment extends ListFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        int random = (int)(Math.random()+1) * 10;
-        list = new ArrayList<>(random);
-        for(int i = 0; i < random; i++) {
+        list = new ArrayList<>(size);
+        for(int i = 0; i < size; i++) {
             list.add("Item: " + i);
         }
 

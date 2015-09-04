@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
 
-        ListsFragment listsFragment = new ListsFragment();
+        ListsFragment listsFragment = new ListsFragment(10);
 
         if(fm.findFragmentById(android.R.id.content) == null) {
             ft.add(android.R.id.content, listsFragment);
