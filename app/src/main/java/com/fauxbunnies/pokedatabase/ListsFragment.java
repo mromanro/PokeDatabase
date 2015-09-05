@@ -21,28 +21,35 @@ public class ListsFragment extends ListFragment {
     ArrayList<String> list;
     int size = 0;
 
-    public ListsFragment (int size) {
-        this.size = size;
+    public ListsFragment () {
+
     }
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
-        ListsFragment listsFragment= new ListsFragment(5);
+        /*
+        ListsFragment listsFragment= new ListsFragment();
+
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         ft.replace(android.R.id.content, listsFragment);
         ft.addToBackStack(null);
         ft.commit();
+        */
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        list = new ArrayList<>(size);
-        for(int i = 0; i < size; i++) {
-            list.add("Item: " + i);
+        Bundle bundle = getArguments();
+        String[] elements = bundle.getStringArray("Elements");
+        list = new ArrayList(elements.length);
+
+        for(int i = 0; i < elements.length; i++){
+            list.add(elements[i]);
         }
+
 
         adapter = new ArrayAdapter(inflater.getContext(), android.R.layout.simple_list_item_1, list);
         setListAdapter(adapter);

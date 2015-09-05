@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pokemon>
+    <group title="XY">
+        <set title = "XY">
+            <card title = "Bulbasaur" img="bulbasaur.jpg"/>
+
+        </set>
+        <set title = "FlashFire">
+
+        </set>
+    </group>
+    <group title = "Black and White">
+        <set title="Black and White">
+
+        </set>
+        <set title="Emerging Powers">
+
+        </set>
+    </group>
+</pokemon>

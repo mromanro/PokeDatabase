@@ -12,6 +12,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 public class MainActivity extends Activity {
 
     private static final int STOPSPLASH = 0;
@@ -42,7 +45,14 @@ public class MainActivity extends Activity {
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
 
-        ListsFragment listsFragment = new ListsFragment(10);
+        ListsFragment listsFragment = new ListsFragment();
+
+        //Temporary
+        InputStream is = getResources().openRawResource(R.raw.cards);
+        XMLParser.parseFile(is);
+        String[] elements = XMLParser.getElementsByTagName("group");
+        listsFragment.setArguments(createBundle(elements));
+        //
 
         if(fm.findFragmentById(android.R.id.content) == null) {
             ft.add(android.R.id.content, listsFragment);
@@ -73,6 +83,15 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    //Temporary functions
+
+    public Bundle createBundle(String[] elements) {
+        Bundle bundle = new Bundle();
+        bundle.putStringArray("Elements", elements);
+
+        return bundle;
     }
 
 
