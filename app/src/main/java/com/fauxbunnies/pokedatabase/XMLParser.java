@@ -7,6 +7,7 @@ import org.w3c.dom.NodeList;
 
 import java.io.File;
 import java.io.InputStream;
+import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -34,7 +35,31 @@ public class XMLParser {
     }
 
     public static String[] getChildElementsByTagName(String tag) {
-        return null;
+        NodeList nList = DOCUMENT.getElementsByTagName(tag);
+        Node node = nList.item(0);
+
+        ArrayList<String> elements = new ArrayList<>();
+
+        if(node.getNodeType() == Node.ELEMENT_NODE) {
+            Element element = (Element) node;
+            NodeList children = element.getChildNodes();
+
+            for(int i = 0; i < children.getLength(); i++) {
+                Node child = children.item(i);
+
+                if(child.getNodeType() == Node.ELEMENT_NODE) {
+                    Element childElement = (Element) child;
+                    elements.add(childElement.getAttribute("title"));
+
+                }
+
+            }
+        }
+
+        String[] ele = new String[elements.size()];
+        ele = elements.toArray(ele);
+
+        return ele;
     }
 
     public static String[] getElementsByTagName(String tag) {
@@ -51,6 +76,7 @@ public class XMLParser {
             }
         }
 
+        System.out.println("SIZE OF ELEMENTS" + elements.length);
         return elements;
     }
 

@@ -51,6 +51,7 @@ public class MainActivity extends Activity {
         InputStream is = getResources().openRawResource(R.raw.cards);
         XMLParser.parseFile(is);
         String[] elements = XMLParser.getElementsByTagName("group");
+        //String[] elements = XMLParser.getChildElementsByTagName("group");
         listsFragment.setArguments(createBundle(elements));
         //
 
