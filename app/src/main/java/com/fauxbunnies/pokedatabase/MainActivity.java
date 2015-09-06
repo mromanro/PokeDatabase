@@ -4,16 +4,12 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.io.InputStream;
-import java.io.InputStreamReader;
 
 public class MainActivity extends Activity {
 
@@ -42,21 +38,16 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        InputStream is = getResources().openRawResource(R.raw.cards);
+        XMLParser.parseFile(is);
+
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
 
-        ListsFragment listsFragment = new ListsFragment();
-
-        //Temporary
-        InputStream is = getResources().openRawResource(R.raw.cards);
-        XMLParser.parseFile(is);
-        String[] elements = XMLParser.getElementsByTagName("group");
-        //String[] elements = XMLParser.getChildElementsByTagName("group");
-        listsFragment.setArguments(createBundle(elements));
-        //
+        GroupListFragment groupListFragment = new GroupListFragment();
 
         if(fm.findFragmentById(android.R.id.content) == null) {
-            ft.add(android.R.id.content, listsFragment);
+            ft.add(android.R.id.content, groupListFragment);
             ft.commit();
         }
         /*
@@ -85,15 +76,5 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    //Temporary functions
-
-    public Bundle createBundle(String[] elements) {
-        Bundle bundle = new Bundle();
-        bundle.putStringArray("Elements", elements);
-
-        return bundle;
-    }
-
 
 }

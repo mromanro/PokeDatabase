@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pokemon>
     <group title="XY">
+        <set title = "FlashFire">
+            <card title = "Charmander" img=""/>
+            <card title = "Charmeleon" img=""/>
+            <card title = "Charizard" img=""/>
+        </set>
         <set title = "XY">
             <card title = "Bulbasaur" img="bulbasaur.jpg"/>
-
-        </set>
-        <set title = "FlashFire">
-
+            <card title = "Ivysaur" img=""/>
+            <card title = "Venusaur" img=""/>
         </set>
     </group>
     <group title = "Black and White">
-        <set title="Black and White">
-
-        </set>
         <set title="Emerging Powers">
-
+            <card title = "Squirtle" img=""/>
+            <card title = "Wartortle" img=""/>
+            <card title = "Blastoise" img=""/>
+        </set>
+        <set title="Black and White">
+            <card title = "Pikachu" img=""/>
+            <card title = "Raichu" img=""/>
         </set>
     </group>
 </pokemon>

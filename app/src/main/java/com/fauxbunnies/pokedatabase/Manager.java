@@ -1,6 +1,7 @@
 package com.fauxbunnies.pokedatabase;
 
 import android.content.Context;
+import android.os.Bundle;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -13,6 +14,19 @@ public class Manager {
     public static ArrayList<String> groups;
     public static ArrayList<String> sets;
     private Context context;
+    private static Manager MANAGER;
+
+    private Manager() {
+
+    }
+
+    public static Manager getInstance() {
+        if (MANAGER == null) {
+            MANAGER = new Manager();
+        }
+
+        return MANAGER;
+    }
 
     public void initialize(Context context) {
         groups = new ArrayList();
@@ -23,6 +37,11 @@ public class Manager {
     }
 
 
+    public Bundle createBundle(String[] elements) {
+        Bundle bundle = new Bundle();
+        bundle.putStringArray("Elements", elements);
 
+        return bundle;
+    }
 
 }

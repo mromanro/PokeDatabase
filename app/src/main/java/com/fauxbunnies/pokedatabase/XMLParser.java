@@ -34,9 +34,9 @@ public class XMLParser {
         }
     }
 
-    public static String[] getChildElementsByTagName(String tag) {
+    public static String[] getChildElements(String tag, int position) {
         NodeList nList = DOCUMENT.getElementsByTagName(tag);
-        Node node = nList.item(0);
+        Node node = nList.item(position);
 
         ArrayList<String> elements = new ArrayList<>();
 
@@ -50,7 +50,6 @@ public class XMLParser {
                 if(child.getNodeType() == Node.ELEMENT_NODE) {
                     Element childElement = (Element) child;
                     elements.add(childElement.getAttribute("title"));
-
                 }
 
             }
@@ -76,7 +75,6 @@ public class XMLParser {
             }
         }
 
-        System.out.println("SIZE OF ELEMENTS" + elements.length);
         return elements;
     }
 
