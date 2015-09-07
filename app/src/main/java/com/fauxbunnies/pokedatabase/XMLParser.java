@@ -35,10 +35,10 @@ public class XMLParser {
         }
     }
 
-    public static String[] getChildElementsByID(String tag, String id) {
+    public static Element[] getChildElementsByID(String tag, String id) {
         NodeList nList = DOCUMENT.getElementsByTagName(tag);
         Element set = null;
-        ArrayList<String> elements = new ArrayList<>();
+        ArrayList<Element> elements = new ArrayList<>();
 
         for(int i = 0; i < nList.getLength(); i++) {
             Node node = nList.item(i);
@@ -61,11 +61,11 @@ public class XMLParser {
 
                 if(child.getNodeType() == Node.ELEMENT_NODE) {
                     Element childElement = (Element) child;
-                    elements.add(childElement.getAttribute("title"));
+                    elements.add(childElement);
                 }
             }
 
-            String[] ele = new String[elements.size()];
+            Element[] ele = new Element[elements.size()];
             ele = elements.toArray(ele);
 
             return ele;

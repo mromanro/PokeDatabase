@@ -7,9 +7,9 @@
             <card title = "Charizard" img=""/>
         </set>
         <set title = "XY">
-            <card title = "Bulbasaur" img="bulbasaur.jpg"/>
+            <card title = "Bulbasaur" img=""/>
             <card title = "Ivysaur" img=""/>
-            <card title = "Venusaur" img=""/>
+            <card title = "Venusaur EX" img="XY_Base/1048210.png"/>
         </set>
     </group>
     <group title = "Black and White">

@@ -8,5 +8,15 @@ import android.media.Image;
 public class Card {
 
     public String title;
-    public Image image;
+    public String image;
+
+    public Card(String title, String image) {
+        this.title = title;
+        this.image = image;
+    }
+
+    @Override
+    public String toString() {
+        return title;
+    }
 }
