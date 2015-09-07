@@ -23,4 +23,14 @@
             <card title = "Raichu" img=""/>
         </set>
     </group>
+    <group title = "HeartGold/SoulSilver">
+        <set title="HeartGold/SoulSilver">
+
+        </set>
+    </group>
+    <group title="Base Set">
+        <set title="Base Set">
+
+        </set>
+    </group>
 </pokemon>

@@ -27,6 +27,8 @@ public class GroupListFragment extends ListFragment {
         Bundle bundle = new Bundle();
         bundle.putInt("Position", position);
 
+        Manager.GROUP_POSITION = position;
+
 
         SetListFragment setListFragment = new SetListFragment();
         setListFragment.setArguments(bundle);

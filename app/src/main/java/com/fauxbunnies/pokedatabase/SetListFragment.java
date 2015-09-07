@@ -25,6 +25,9 @@ public class SetListFragment extends ListFragment {
 
         Bundle bundle = new Bundle();
         bundle.putInt("Position", position);
+        bundle.putString("Setlist", list.get(position));
+
+        Manager.SET_POSITION = position;
 
         CardListFragment cardListFragment = new CardListFragment();
         cardListFragment.setArguments(bundle);

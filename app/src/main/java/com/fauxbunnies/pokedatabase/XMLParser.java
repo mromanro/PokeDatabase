@@ -7,6 +7,7 @@ import org.w3c.dom.NodeList;
 
 import java.io.File;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -32,6 +33,45 @@ public class XMLParser {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public static String[] getChildElementsByID(String tag, String id) {
+        NodeList nList = DOCUMENT.getElementsByTagName(tag);
+        Element set = null;
+        ArrayList<String> elements = new ArrayList<>();
+
+        for(int i = 0; i < nList.getLength(); i++) {
+            Node node = nList.item(i);
+
+            if(node.getNodeType() == Node.ELEMENT_NODE) {
+                Element element = (Element) node;
+
+                if(element.getAttribute("title") == id) {
+                    set = element;
+                    break;
+                }
+            }
+        }
+
+        if(set != null) {
+            NodeList childList = set.getChildNodes();
+
+            for(int i = 0; i < childList.getLength(); i++) {
+                Node child = childList.item(i);
+
+                if(child.getNodeType() == Node.ELEMENT_NODE) {
+                    Element childElement = (Element) child;
+                    elements.add(childElement.getAttribute("title"));
+                }
+            }
+
+            String[] ele = new String[elements.size()];
+            ele = elements.toArray(ele);
+
+            return ele;
+        }
+        
+        return null;
     }
 
     public static String[] getChildElements(String tag, int position) {

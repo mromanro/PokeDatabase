@@ -15,6 +15,8 @@ public class Manager {
     public static ArrayList<String> sets;
     private Context context;
     private static Manager MANAGER;
+    public static int GROUP_POSITION = 0;
+    public static int SET_POSITION = 0;
 
     private Manager() {
 

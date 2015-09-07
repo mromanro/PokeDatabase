@@ -17,6 +17,7 @@ import java.util.Arrays;
 public class CardListFragment extends ListFragment{
 
     ArrayList<String> list;
+    String setTitle;
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
@@ -29,8 +30,9 @@ public class CardListFragment extends ListFragment{
 
         Bundle bundle = getArguments();
         int position = bundle.getInt("Position");
+        setTitle = bundle.getString("Setlist");
 
-        String[] elements = XMLParser.getChildElements("set", position);
+        String[] elements = XMLParser.getChildElementsByID("set", setTitle);
 
         list = new ArrayList<>(elements.length);
         list.addAll(Arrays.asList(elements));
