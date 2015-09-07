@@ -7,9 +7,134 @@
             <card title = "Charizard" img=""/>
         </set>
         <set title = "XY">
-            <card title = "Bulbasaur" img=""/>
-            <card title = "Ivysaur" img=""/>
-            <card title = "Venusaur EX" img="XY_Base/1048210.png"/>
+            <card title="Venusaur EX" img="XY_Base/1048210.png"/>
+            <card title="M Venusaur EX" img="XY_Base/1048211.png"/>
+            <card title="Chesnaught" img="XY_Base/1048212.png"/>
+            <card title="Delphox" img="XY_Base/1048213.png"/>
+            <card title="M Blastoise EX" img="XY_Base/1048215.png"/>
+            <card title="Greninja" img="XY_Base/1048216.png"/>
+            <card title="Yveltal" img="XY_Base/1048217.png"/>
+            <card title="Xerneas" img="XY_Base/1048219.png"/>
+            <card title="Professor Sycamore" img="XY_Base/1048221.png"/>
+            <card title="Phantump" img="XY_Base/1048353.png"/>
+            <card title="Diglett" img="XY_Base/1048355.png"/>
+            <card title="Hard Charm" img="XY_Base/1048357.png"/>
+            <card title="Muscle Band" img="XY_Base/1048358.png"/>
+            <card title="Red Card" img="XY_Base/1048359.png"/>
+            <card title="Team Flare Grunt" img="XY_Base/1048360.png"/>
+            <card title="Krookodile" img="XY_Base/1049400.png"/>
+            <card title="Zoroark" img="XY_Base/1049401.png"/>
+            <card title="Malamar" img="XY_Base/1049402.png"/>
+            <card title="Malamar" img="XY_Base/1049403.png"/>
+            <card title="Wigglytuff" img="XY_Base/1049404.png"/>
+            <card title="Aromatisse" img="XY_Base/1049405.png"/>
+            <card title="Slurpuff" img="XY_Base/1049406.png"/>
+            <card title="Fairy Garden" img="XY_Base/1049407.png"/>
+            <card title="Shadow Circle" img="XY_Base/1049408.png"/>
+            <card title="Weedle" img="XY_Base/1050411.png"/>
+            <card title="Kakuna" img="XY_Base/1050412.png"/>
+            <card title="Beedrill" img="XY_Base/1050413.png"/>
+            <card title="Ledyba" img="XY_Base/1050414.png"/>
+            <card title="Ledian" img="XY_Base/1050415.png"/>
+            <card title="Volbeat" img="XY_Base/1050416.png"/>
+            <card title="Illumise" img="XY_Base/1050417.png"/>
+            <card title="Pansage" img="XY_Base/1050418.png"/>
+            <card title="Simisage" img="XY_Base/1050419.png"/>
+            <card title="Chespin" img="XY_Base/1050420.png"/>
+            <card title="Quilladin" img="XY_Base/1050421.png"/>
+            <card title="Scatterbug" img="XY_Base/1050422.png"/>
+            <card title="Spewpa" img="XY_Base/1050423.png"/>
+            <card title="Vivillon" img="XY_Base/1050424.png"/>
+            <card title="Skiddo" img="XY_Base/1050425.png"/>
+            <card title="Gogoat" img="XY_Base/1050426.png"/>
+            <card title="Slugma" img="XY_Base/1050427.png"/>
+            <card title="Magcargo" img="XY_Base/1050428.png"/>
+            <card title="Pansear" img="XY_Base/1050429.png"/>
+            <card title="Simisear" img="XY_Base/1050430.png"/>
+            <card title="Fennekin" img="XY_Base/1050431.png"/>
+            <card title="Braixen" img="XY_Base/1050432.png"/>
+            <card title="Fletchinder" img="XY_Base/1050433.png"/>
+            <card title="Talonflame" img="XY_Base/1050434.png"/>
+            <card title="Shellder" img="XY_Base/1050435.png"/>
+            <card title="Cloyster" img="XY_Base/1050436.png"/>
+            <card title="Staryu" img="XY_Base/1050437.png"/>
+            <card title="Starmie" img="XY_Base/1050438.png"/>
+            <card title="Lapras" img="XY_Base/1050439.png"/>
+            <card title="Corsola" img="XY_Base/1050440.png"/>
+            <card title="Panpour" img="XY_Base/1050441.png"/>
+            <card title="Simipour" img="XY_Base/1050442.png"/>
+            <card title="Froakie" img="XY_Base/1050443.png"/>
+            <card title="Frogadier" img="XY_Base/1050444.png"/>
+            <card title="Pikachu" img="XY_Base/1050445.png"/>
+            <card title="Raichu" img="XY_Base/1050446.png"/>
+            <card title="Voltorb" img="XY_Base/1050447.png"/>
+            <card title="Electrode" img="XY_Base/1050448.png"/>
+            <card title="Ekans" img="XY_Base/1050449.png"/>
+            <card title="Arbok" img="XY_Base/1050450.png"/>
+            <card title="Spoink" img="XY_Base/1050451.png"/>
+            <card title="Grumpig" img="XY_Base/1050452.png"/>
+            <card title="Venipede" img="XY_Base/1050453.png"/>
+            <card title="Whirlipede" img="XY_Base/1050454.png"/>
+            <card title="Scolipede" img="XY_Base/1050455.png"/>
+            <card title="Pumpkaboo" img="XY_Base/1050456.png"/>
+            <card title="Gourgeist" img="XY_Base/1050457.png"/>
+            <card title="Rhyhorn" img="XY_Base/1050459.png"/>
+            <card title="Rhydon" img="XY_Base/1050460.png"/>
+            <card title="Rhyperior" img="XY_Base/1050461.png"/>
+            <card title="Lunatone" img="XY_Base/1050462.png"/>
+            <card title="Solrock" img="XY_Base/1050463.png"/>
+            <card title="Timburr" img="XY_Base/1050464.png"/>
+            <card title="Gurdurr" img="XY_Base/1050465.png"/>
+            <card title="Conkeldurr" img="XY_Base/1050466.png"/>
+            <card title="Sableye" img="XY_Base/1050467.png"/>
+            <card title="Sandile" img="XY_Base/1050468.png"/>
+            <card title="Krokorok" img="XY_Base/1050468.png"/>
+            <card title="Zorua" img="XY_Base/1050470.png"/>
+            <card title="Inkay" img="XY_Base/1050471.png"/>
+            <card title="Inkay" img="XY_Base/1050472.png"/>
+            <card title="Pawniard" img="XY_Base/1050473.png"/>
+            <card title="Bisharp" img="XY_Base/1050474.png"/>
+            <card title="Honedge" img="XY_Base/1050475.png"/>
+            <card title="Doublade" img="XY_Base/1050476.png"/>
+            <card title="Aegislash" img="XY_Base/1050477.png"/>
+            <card title="Jigglypuff" img="XY_Base/1050479.png"/>
+            <card title="Jigglypuff" img="XY_Base/1050480.png"/>
+            <card title="Wigglytuff" img="XY_Base/1050481.png"/>
+            <card title="Mr. Mime" img="XY_Base/1050482.png"/>
+            <card title="Spritzee" img="XY_Base/1050483.png"/>
+            <card title="Swirlix" img="XY_Base/1050484.png"/>
+            <card title="Doduo" img="XY_Base/1050485.png"/>
+            <card title="Dodrio" img="XY_Base/1050486.png"/>
+            <card title="Tauros" img="XY_Base/1050487.png"/>
+            <card title="Dunsparce" img="XY_Base/1050488.png"/>
+            <card title="Taillow" img="XY_Base/1050489.png"/>
+            <card title="Swellow" img="XY_Base/1050490.png"/>
+            <card title="Skitty" img="XY_Base/1050491.png"/>
+            <card title="Delcatty" img="XY_Base/1050492.png"/>
+            <card title="Bidoof" img="XY_Base/1050493.png"/>
+            <card title="Bibarel" img="XY_Base/1050494.png"/>
+            <card title="Lillipup" img="XY_Base/1050495.png"/>
+            <card title="Herdier" img="XY_Base/1050496.png"/>
+            <card title="Stoutland" img="XY_Base/1050497.png"/>
+            <card title="Bunnelby" img="XY_Base/1050498.png"/>
+            <card title="Diggersby" img="XY_Base/1050499.png"/>
+            <card title="Fletchling" img="XY_Base/1050500.png"/>
+            <card title="Furfrou" img="XY_Base/1050501.png"/>
+            <card title="Cassius" img="XY_Base/1050502.png"/>
+            <card title="Evosoda" img="XY_Base/1050503.png"/>
+            <card title="Great Ball" img="XY_Base/1050504.png"/>
+            <card title="Max Revive" img="XY_Base/1050505.png"/>
+            <card title="Professor's Letter" img="XY_Base/1050506.png"/>
+            <card title="Roller Skates" img="XY_Base/1050507.png"/>
+            <card title="Super Potion" img="XY_Base/1050508.png"/>
+            <card title="Rainbow Energy" img="XY_Base/1050510.png"/>
+            <card title="Blastoise EX" img="XY_Base/1050521.png"/>
+            <card title="Emolga EX" img="XY_Base/1050522.png"/>
+            <card title="Yveltal EX" img="XY_Base/1050523.png"/>
+            <card title="Skarmory EX" img="XY_Base/1050524.png"/>
+            <card title="Xerneas EX" img="XY_Base/1050525.png"/>
+            <card title="Vivillon" img="XY_Base/1051068.png"/>
+            <card title="Shauna" img="XY_Base/1066161.png"/>
         </set>
     </group>
     <group title = "Black and White">

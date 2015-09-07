@@ -5,6 +5,7 @@ import android.app.FragmentTransaction;
 import android.app.ListFragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -53,7 +54,7 @@ public class CardListFragment extends ListFragment{
 
         for(int i = 0; i < elements.length; i++) {
             list.add(new Card(elements[i].getAttribute("title"),
-                                elements[i].getAttribute("img")));
+                              elements[i].getAttribute("img")));
         }
 
         ArrayAdapter adapter = new ArrayAdapter<>(inflater.getContext(),
@@ -61,5 +62,15 @@ public class CardListFragment extends ListFragment{
         setListAdapter(adapter);
 
         return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void sortListBy(String sortBy) {
+
     }
 }
