@@ -30,6 +30,14 @@ public class Manager {
         return MANAGER;
     }
 
+    public void loadTypeIcons() {
+
+    }
+
+    public void loadSetIcons(){
+
+    }
+
     public void initialize(Context context) {
         groups = new ArrayList();
         sets = new ArrayList();
