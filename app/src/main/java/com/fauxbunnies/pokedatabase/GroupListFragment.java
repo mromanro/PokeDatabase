@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -46,7 +45,6 @@ public class GroupListFragment extends ListFragment {
                              Bundle savedInstanceState) {
 
         String[] elements = XMLParser.getElementsByTagName("group");
-        //String[] elements = XMLParser.getChildElementsByTagName("group");
 
         list = new ArrayList<>(elements.length);
         list.addAll(Arrays.asList(elements));

@@ -1,6 +1,7 @@
 package com.fauxbunnies.pokedatabase;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import java.io.InputStream;
@@ -54,4 +55,14 @@ public class Manager {
         return bundle;
     }
 
+    public static Drawable getImageFromSrc(String imgSource, Context context) {
+        try {
+            InputStream ims = context.getAssets().open(imgSource);
+            Drawable d = Drawable.createFromStream(ims, null);
+            return d;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

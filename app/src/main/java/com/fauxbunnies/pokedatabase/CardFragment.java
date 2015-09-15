@@ -1,7 +1,6 @@
 package com.fauxbunnies.pokedatabase;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -25,25 +24,14 @@ public class CardFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.card_layout, container, false);
 
-
         imageView = (ImageView) view.findViewById(R.id.imageView);
-
-
 
         Bundle bundle = getArguments();
         title = bundle.getString("Title");
         imgSource = bundle.getString("ImageSource");
 
 
-
-        try {
-            InputStream ims = inflater.getContext().getAssets().open(imgSource);
-            Drawable d = Drawable.createFromStream(ims, null);
-            imageView.setImageDrawable(d);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
+        imageView.setImageDrawable(Manager.getImageFromSrc(imgSource, inflater.getContext()));
 
         return view;
     }

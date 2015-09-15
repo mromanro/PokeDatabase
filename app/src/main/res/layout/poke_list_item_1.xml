@@ -9,7 +9,6 @@
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:layout_alignParentBottom="true"
-        android:layout_alingParentTop="true"
         android:layout_marginRight="6dip"
         />
 
@@ -19,7 +18,7 @@
         android:layout_height="fill_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/icon"
+        android:layout_toRightOf="@id/list_item_image"
         android:singleLine="true"/>
 
 </RelativeLayout>

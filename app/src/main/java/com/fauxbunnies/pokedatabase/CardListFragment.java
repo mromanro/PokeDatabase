@@ -54,12 +54,19 @@ public class CardListFragment extends ListFragment{
 
         for(int i = 0; i < elements.length; i++) {
             list.add(new Card(elements[i].getAttribute("title"),
-                              elements[i].getAttribute("img")));
+                              elements[i].getAttribute("img"),
+                              elements[i].getAttribute("type")));
         }
 
+        CustomAdapter adapter = new CustomAdapter(inflater.getContext(), R.layout.poke_list_item_1,
+                                                    list);
+        setListAdapter(adapter);
+
+        /*
         ArrayAdapter adapter = new ArrayAdapter<>(inflater.getContext(),
                 android.R.layout.simple_list_item_1, list);
         setListAdapter(adapter);
+        */
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }
