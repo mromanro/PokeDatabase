@@ -74,6 +74,33 @@ public class XMLParser {
         return null;
     }
 
+    public static Element[] getChildElementsByPosition(String tag, int position) {
+        NodeList nList = DOCUMENT.getElementsByTagName(tag);
+        Node node = nList.item(position);
+
+        ArrayList<Element> elements = new ArrayList<>();
+
+        if(node.getNodeType() == Node.ELEMENT_NODE) {
+            Element element = (Element) node;
+            NodeList children = element.getChildNodes();
+
+            for(int i = 0; i < children.getLength(); i++) {
+                Node child = children.item(i);
+
+                if(child.getNodeType() == Node.ELEMENT_NODE) {
+                    Element childElement = (Element) child;
+                    elements.add(childElement);
+                }
+
+            }
+        }
+
+        Element[] ele = new Element[elements.size()];
+        ele = elements.toArray(ele);
+
+        return ele;
+    }
+
     public static String[] getChildElements(String tag, int position) {
         NodeList nList = DOCUMENT.getElementsByTagName(tag);
         Node node = nList.item(position);

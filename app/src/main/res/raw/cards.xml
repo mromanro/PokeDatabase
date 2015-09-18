@@ -1,12 +1,703 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pokemon>
     <group title="XY">
-        <set title = "FlashFire">
-            <card title = "Charmander" img=""/>
-            <card title = "Charmeleon" img=""/>
-            <card title = "Charizard" img=""/>
+        <set title = "Ancient Origins" img="Set_Symbols/SetSymbolAncient_Origins.png">
+            <card title="Oddish" type="grass" img=""/>
+            <card title="Gloom" type="grass" img=""/>
+            <card title="Vileplume" type="grass" img=""/>
+            <card title="Bellossom" type="grass" img=""/>
+            <card title="Spinarak" type="grass" img=""/>
+            <card title="Ariados" type="grass" img=""/>
+            <card title="Sceptile EX" type="grass" img=""/>
+            <card title="M Sceptile EX" type="grass" img=""/>
+            <card title="Combee" type="grass" img=""/>
+            <card title="Vespiqueen" type="grass" img=""/>
+            <card title="Vespiqueen" type="grass" img=""/>
+            <card title="Virizion" type="grass" img=""/>
+            <card title="Flareon" type="fire" img=""/>
+            <card title="Entei" type="fire" img=""/>
+            <card title="Entei" type="fire" img=""/>
+            <card title="Larvesta" type="fire" img=""/>
+            <card title="Volcarona" type="fire" img=""/>
+            <card title="Volcarona" type="fire" img=""/>
+            <card title="Magikarp" type="water" img=""/>
+            <card title="Gyarados" type="water" img=""/>
+            <card title="Gyarados" type="water" img=""/>
+            <card title="Vaporeon" type="water" img=""/>
+            <card title="Relicanth" type="water" img=""/>
+            <card title="Regice" type="water" img=""/>
+            <card title="Kyurem EX" type="water" img=""/>
+            <card title="Jolteon" type="lightning" img=""/>
+            <card title="Ampharos EX" type="lightning" img=""/>
+            <card title="M Ampharos EX" type="lightning" img=""/>
+            <card title="Rotom" type="lightning" img=""/>
+            <card title="Unown" type="psychic" img=""/>
+            <card title="Baltoy" type="psychic" img=""/>
+            <card title="Baltoy" type="psychic" img=""/>
+            <card title="Claydol" type="psychic" img=""/>
+            <card title="Golett" type="psychic" img=""/>
+            <card title="Golurk" type="psychic" img=""/>
+            <card title="Hoopa EX" type="psychic" img=""/>
+            <card title="Machamp EX" type="fighting" img=""/>
+            <card title="Wooper" type="fighting" img=""/>
+            <card title="Quagsire" type="fighting" img=""/>
+            <card title="Regirock" type="fighting" img=""/>
+            <card title="Golurk" type="fighting" img=""/>
+            <card title="Tyranitar EX" type="dark" img=""/>
+            <card title="M Tyranitar EX" type="dark" img=""/>
+            <card title="Sableye" type="dark" img=""/>
+            <card title="Inkay" type="dark" img=""/>
+            <card title="Malamar" type="dark" img=""/>
+            <card title="Beldum" type="steel" img=""/>
+            <card title="Metang" type="steel" img=""/>
+            <card title="Metagross" type="steel" img=""/>
+            <card title="Metagross" type="steel" img=""/>
+            <card title="Registeel" type="steel" img=""/>
+            <card title="Ralts" type="fairy" img=""/>
+            <card title="Kirlia" type="fairy" img=""/>
+            <card title="Gardevoir" type="fairy" img=""/>
+            <card title="Cottonee" type="fairy" img=""/>
+            <card title="Whimsicott" type="fairy" img=""/>
+            <card title="Giratina EX" type="dragon" img=""/>
+            <card title="Goomy" type="dragon" img=""/>
+            <card title="Sliggoo" type="dragon" img=""/>
+            <card title="Goodra" type="dragon" img=""/>
+            <card title="Meowth" type="colorless" img=""/>
+            <card title="Persian" type="colorless" img=""/>
+            <card title="Eevee" type="colorless" img=""/>
+            <card title="Porygon" type="colorless" img=""/>
+            <card title="Porygon2" type="colorless" img=""/>
+            <card title="Porygon-Z" type="colorless" img=""/>
+            <card title="Porygon-Z" type="colorless" img=""/>
+            <card title="Lugia EX" type="colorless" img=""/>
+            <card title="Ace Trainer" type="trainer" img=""/>
+            <card title="Ampharos Spirit Link" type="trainer" img=""/>
+            <card title="Eco Arm" type="trainer" img=""/>
+            <card title="Energy Recycler" type="trainer" img=""/>
+            <card title="Faded Town" type="trainer" img=""/>
+            <card title="Forest of Giant Plants" type="trainer" img=""/>
+            <card title="Hex Maniac" type="trainer" img=""/>
+            <card title="Level Ball" type="trainer" img=""/>
+            <card title="Lucky Helmet" type="trainer" img=""/>
+            <card title="Lysandre" type="trainer" img=""/>
+            <card title="Paint Roller" type="trainer" img=""/>
+            <card title="Sceptile Spirit Link" type="trainer" img=""/>
+            <card title="Tyranitar Spirit Link" type="trainer" img=""/>
+            <card title="Dangerous Energy" type="dark" img=""/>
+            <card title="Flash Energy" type="lightning" img=""/>
+            <card title="Primal Kyogre EX" type="water" img=""/>
+            <card title="Primal Groudon EX" type="fighting" img=""/>
+            <card title="M Rayquaza EX" type="colorless" img=""/>
+            <card title="Energy Retrieval" type="trainer" img=""/>
+            <card title="Trainer's Mail" type="trainer" img=""/>
         </set>
-        <set title = "XY">
+        <set title = "Roaring Skies" img="Set_Symbols/SetSymbolRoaring_Skies.png">
+            <card title="Exeggcute" type="grass" img=""/>
+            <card title="Exeggutor" type="grass" img=""/>
+            <card title="Wurmple" type="grass" img=""/>
+            <card title="Silcoon" type="grass" img=""/>
+            <card title="Beautifly" type="grass" img=""/>
+            <card title="Cascoon" type="grass" img=""/>
+            <card title="Dustox" type="grass" img=""/>
+            <card title="Dustox" type="grass" img=""/>
+            <card title="Nincada" type="grass" img=""/>
+            <card title="Ninjask" type="grass" img=""/>
+            <card title="Shedinja" type="grass" img=""/>
+            <card title="Tropius" type="grass" img=""/>
+            <card title="Victini" type="fire" img=""/>
+            <card title="Fletchinder" type="fire" img=""/>
+            <card title="Talonflame" type="fire" img=""/>
+            <card title="Articuno" type="water" img=""/>
+            <card title="Articuno" type="water" img=""/>
+            <card title="Wingull" type="water" img=""/>
+            <card title="Pelipper" type="water" img=""/>
+            <card title="Pikachu" type="lightning" img=""/>
+            <card title="Voltorb" type="lightning" img=""/>
+            <card title="Electrode" type="lightning" img=""/>
+            <card title="Zapdos" type="lightning" img=""/>
+            <card title="Electrike" type="lightning" img=""/>
+            <card title="Manectric" type="lightning" img=""/>
+            <card title="Thundurus EX" type="lightning" img=""/>
+            <card title="Natu" type="psychic" img=""/>
+            <card title="Natu" type="psychic" img=""/>
+            <card title="Xatu" type="psychic" img=""/>
+            <card title="Shuppet" type="psychic" img=""/>
+            <card title="Banette" type="psychic" img=""/>
+            <card title="Banette" type="psychic" img=""/>
+            <card title="Deoxys" type="psychic" img=""/>
+            <card title="Gallade EX" type="psychic" img=""/>
+            <card title="M Gallade EX" type="psychic" img=""/>
+            <card title="Gligar" type="fighting" img=""/>
+            <card title="Gliscor" type="fighting" img=""/>
+            <card title="Binacle" type="fighting" img=""/>
+            <card title="Hawlucha" type="fighting" img=""/>
+            <card title="Absol" type="dark" img=""/>
+            <card title="Inkay" type="dark" img=""/>
+            <card title="Jirachi" type="steel" img=""/>
+            <card title="Togepi" type="fairy" img=""/>
+            <card title="Togetic" type="fairy" img=""/>
+            <card title="Togekiss" type="fairy" img=""/>
+            <card title="Togekiss" type="fairy" img=""/>
+            <card title="Carbink" type="fairy" img=""/>
+            <card title="Klefki" type="fairy" img=""/>
+            <card title="Dratini" type="dragon" img=""/>
+            <card title="Dragonair" type="dragon" img=""/>
+            <card title="Dragonite" type="dragon" img=""/>
+            <card title="Dragonite" type="dragon" img=""/>
+            <card title="Altaria" type="dragon" img=""/>
+            <card title="Bagon" type="dragon" img=""/>
+            <card title="Bagon" type="dragon" img=""/>
+            <card title="Shelgon" type="dragon" img=""/>
+            <card title="Salamence" type="dragon" img=""/>
+            <card title="Latios EX" type="dragon" img=""/>
+            <card title="M Latios EX" type="dragon" img=""/>
+            <card title="Rayquaza EX" type="dragon" img=""/>
+            <card title="M Rayquaza EX" type="dragon" img=""/>
+            <card title="Hydreigon EX" type="dragon" img=""/>
+            <card title="Reshiram" type="dragon" img=""/>
+            <card title="Zelkrom" type="dragon" img=""/>
+            <card title="Spearow" type="colorless" img=""/>
+            <card title="Fearow" type="colorless" img=""/>
+            <card title="Meowth" type="colorless" img=""/>
+            <card title="Dunsparce" type="colorless" img=""/>
+            <card title="Skarmory" type="colorless" img=""/>
+            <card title="Taillow" type="colorless" img=""/>
+            <card title="Swellow" type="colorless" img=""/>
+            <card title="Swellow" type="colorless" img=""/>
+            <card title="Swablu" type="colorless" img=""/>
+            <card title="Altaria" type="colorless" img=""/>
+            <card title="Rayquaza EX" type="colorless" img=""/>
+            <card title="M Rayquaza EX" type="colorless" img=""/>
+            <card title="Shaymin EX" type="colorless" img=""/>
+            <card title="Pidove" type="colorless" img=""/>
+            <card title="Tranquill" type="colorless" img=""/>
+            <card title="Unfezant" type="colorless" img=""/>
+            <card title="Unfezant" type="colorless" img=""/>
+            <card title="Fletchling" type="colorless" img=""/>
+            <card title="Gallade Spirit Link" type="trainer" img=""/>
+            <card title="Healing Scarf" type="trainer" img=""/>
+            <card title="Latios Spirit Link" type="trainer" img=""/>
+            <card title="Mega Turbo" type="trainer" img=""/>
+            <card title="Rayquaza Spirit Link" type="trainer" img=""/>
+            <card title="Revive" type="trainer" img=""/>
+            <card title="Sky Field" type="trainer" img=""/>
+            <card title="Steven" type="trainer" img=""/>
+            <card title="Switch" type="trainer" img=""/>
+            <card title="Trainer's Mail" type="trainer" img=""/>
+            <card title="Ultra Ball" type="trainer" img=""/>
+            <card title="Wally" type="trainer" img=""/>
+            <card title="Wide Lens" type="trainer" img=""/>
+            <card title="Winona" type="trainer" img=""/>
+            <card title="Double Dragon Energy" type="dragon" img=""/>
+            <card title="Energy Switch" type="trainer" img=""/>
+            <card title="VS Seeker" type="trainer" img=""/>
+        </set>
+        <set title = "Double Crisis" img="Set_Symbols/SetSymbolDouble_Crisis.png">
+            <card title="Team Magma's Numel" type="fire" img=""/>
+            <card title="Team Magma's Camerupt" type="fire" img=""/>
+            <card title="Team Aqua's Spheal" type="water" img=""/>
+            <card title="Team Aqua's Sealeo" type="water" img=""/>
+            <card title="Team Aqua's Walrein" type="water" img=""/>
+            <card title="Team Aqua's Kyogre EX" type="water" img=""/>
+            <card title="Team Aqua's Grimer" type="psychic" img=""/>
+            <card title="Team Aqua's Muk" type="psychic" img=""/>
+            <card title="Team Aqua's Seviper" type="psychic" img=""/>
+            <card title="Team Magma's Baltoy" type="psychic" img=""/>
+            <card title="Team Magma's Claydol" type="psychic" img=""/>
+            <card title="Team Magma's Aron" type="fighting" img=""/>
+            <card title="Team Magma's Lairon" type="fighting" img=""/>
+            <card title="Team Magma's Aggron" type="fighting" img=""/>
+            <card title="Team Magma's Groudon EX" type="fighting" img=""/>
+            <card title="Team Aqua's Poochyena" type="dark" img=""/>
+            <card title="Team Magma's Poochyena" type="dark" img=""/>
+            <card title="Team Aqua's Mightyena" type="dark" img=""/>
+            <card title="Team Magma's Mightyena" type="dark" img=""/>
+            <card title="Team Aqua's Carvanha" type="dark" img=""/>
+            <card title="Team Aqua's Sharpedo" type="dark" img=""/>
+            <card title="Team Magma's Zangoose" type="colorless" img=""/>
+            <card title="Aqua Diffuser" type="trainer" img=""/>
+            <card title="Magma Pointer" type="trainer" img=""/>
+            <card title="Team Aqua Admin" type="trainer" img=""/>
+            <card title="Team Aqua Grunt" type="trainer" img=""/>
+            <card title="Team Aqua Great Ball" type="trainer" img=""/>
+            <card title="Team Aqua's Secret Base" type="trainer" img=""/>
+            <card title="Team Magma Admin" type="trainer" img=""/>
+            <card title="Team Magma Grunt" type="trainer" img=""/>
+            <card title="Team Magma's Great Ball" type="trainer" img=""/>
+            <card title="Team Magma's Secret Base" type="trainer" img=""/>
+            <card title="Double Aqua Energy" type="water" img=""/>
+            <card title="Double Magma Energy" type="fighting" img=""/>
+        </set>
+        <set title = "Primal Clash" img="Set_Symbols/SetSymbolPrimal_Clash.png">
+            <card title="Weedle" type="grass" img=""/>
+            <card title="Kakuna" type="grass" img=""/>
+            <card title="Beedrill" type="grass" img=""/>
+            <card title="Tangela" type="grass" img=""/>
+            <card title="Tangrowth" type="grass" img=""/>
+            <card title="Treecko" type="grass" img=""/>
+            <card title="Grovyle" type="grass" img=""/>
+            <card title="Sceptile" type="grass" img=""/>
+            <card title="Sceptile" type="grass" img=""/>
+            <card title="Lotad" type="grass" img=""/>
+            <card title="Lombre" type="grass" img=""/>
+            <card title="Ludicolo" type="grass" img=""/>
+            <card title="Surskit" type="grass" img=""/>
+            <card title="Masquerain" type="grass" img=""/>
+            <card title="Shroomish" type="grass" img=""/>
+            <card title="Breloom" type="grass" img=""/>
+            <card title="Volbeat" type="grass" img=""/>
+            <card title="Illumise" type="grass" img=""/>
+            <card title="Trevenant EX" type="grass" img=""/>
+            <card title="Vulpix" type="fire" img=""/>
+            <card title="Ninetales" type="fire" img=""/>
+            <card title="Slugma" type="fire" img=""/>
+            <card title="Magcargo" type="fire" img=""/>
+            <card title="Magcargo" type="fire" img=""/>
+            <card title="Torchic" type="fire" img=""/>
+            <card title="Torchic" type="fire" img=""/>
+            <card title="Combusken" type="fire" img=""/>
+            <card title="Blaziken" type="fire" img=""/>
+            <card title="Camerupt EX" type="fire" img=""/>
+            <card title="Horsea" type="water" img=""/>
+            <card title="Seadra" type="water" img=""/>
+            <card title="Staryu" type="water" img=""/>
+            <card title="Mudkip" type="water" img=""/>
+            <card title="Marshtomp" type="water" img=""/>
+            <card title="Swampert" type="water" img=""/>
+            <card title="Swampert" type="water" img=""/>
+            <card title="Ludicolo" type="water" img=""/>
+            <card title="Wailord EX" type="water" img=""/>
+            <card title="Barboach" type="water" img=""/>
+            <card title="Whiscash" type="water" img=""/>
+            <card title="Whiscash" type="water" img=""/>
+            <card title="Corphish" type="water" img=""/>
+            <card title="Feebas" type="water" img=""/>
+            <card title="Milotic" type="water" img=""/>
+            <card title="Spheal" type="water" img=""/>
+            <card title="Spheal" type="water" img=""/>
+            <card title="Sealeo" type="water" img=""/>
+            <card title="Walrein" type="water" img=""/>
+            <card title="Clamperl" type="water" img=""/>
+            <card title="Huntail" type="water" img=""/>
+            <card title="Gorebyss" type="water" img=""/>
+            <card title="Gorebyss" type="water" img=""/>
+            <card title="Kyogre" type="water" img=""/>
+            <card title="Kyogre EX" type="water" img=""/>
+            <card title="Primal Kyogre EX" type="water" img=""/>
+            <card title="Manaphy" type="water" img=""/>
+            <card title="Chinchou" type="lightning" img=""/>
+            <card title="Lanturn" type="lightning" img=""/>
+            <card title="Electrike" type="lightning" img=""/>
+            <card title="Electrike" type="lightning" img=""/>
+            <card title="Manectric" type="lightning" img=""/>
+            <card title="Tynamo" type="lightning" img=""/>
+            <card title="Eelectrik" type="lightning" img=""/>
+            <card title="Eelectrik" type="lightning" img=""/>
+            <card title="Eelektross" type="lightning" img=""/>
+            <card title="Nidoran (Female)" type="psychic" img=""/>
+            <card title="Nidorina" type="psychic" img=""/>
+            <card title="Nidoqueen" type="psychic" img=""/>
+            <card title="Nidoqueen" type="psychic" img=""/>
+            <card title="Tentacool" type="psychic" img=""/>
+            <card title="Tentacool" type="psychic" img=""/>
+            <card title="Tentacruel" type="psychic" img=""/>
+            <card title="Starmie" type="psychic" img=""/>
+            <card title="Rhyhorn" type="fighting" img=""/>
+            <card title="Rhydon" type="fighting" img=""/>
+            <card title="Rhyperior" type="fighting" img=""/>
+            <card title="Rhyperior" type="fighting" img=""/>
+            <card title="Nosepass" type="fighting" img=""/>
+            <card title="Meditite" type="fighting" img=""/>
+            <card title="Medicham" type="fighting" img=""/>
+            <card title="Medicham" type="fighting" img=""/>
+            <card title="Trapinch" type="fighting" img=""/>
+            <card title="Solrock" type="fighting" img=""/>
+            <card title="Groudon" type="fighting" img=""/>
+            <card title="Groudon EX" type="fighting" img=""/>
+            <card title="Primal Groudon EX" type="fighting" img=""/>
+            <card title="Hippopotas" type="fighting" img=""/>
+            <card title="Hippowdon" type="fighting" img=""/>
+            <card title="Drilbur" type="fighting" img=""/>
+            <card title="Diggersby" type="fighting" img=""/>
+            <card title="Sharpedo EX" type="dark" img=""/>
+            <card title="Crawdaunt" type="dark" img=""/>
+            <card title="Aggron EX" type="steel" img=""/>
+            <card title="M Aggron EX" type="steel" img=""/>
+            <card title="Probopass" type="steel" img=""/>
+            <card title="Excadrill" type="steel" img=""/>
+            <card title="Excadrill" type="steel" img=""/>
+            <card title="Honedge" type="steel" img=""/>
+            <card title="Doublade" type="steel" img=""/>
+            <card title="Aegislash" type="steel" img=""/>
+            <card title="Mr. Mime" type="fairy" img=""/>
+            <card title="Marill" type="fairy" img=""/>
+            <card title="Azumarill" type="fairy" img=""/>
+            <card title="Azumarill" type="fairy" img=""/>
+            <card title="Gardevoir EX" type="fairy" img=""/>
+            <card title="M Gardevoir EX" type="fairy" img=""/>
+            <card title="Kingdra" type="dragon" img=""/>
+            <card title="Kingdra" type="dragon" img=""/>
+            <card title="Vibrava" type="dragon" img=""/>
+            <card title="Flygon" type="dragon" img=""/>
+            <card title="Zigzagoon" type="colorless" img=""/>
+            <card title="Linoone" type="colorless" img=""/>
+            <card title="Skitty" type="colorless" img=""/>
+            <card title="Delcatty" type="colorless" img=""/>
+            <card title="Spinda" type="colorless" img=""/>
+            <card title="Bidoof" type="colorless" img=""/>
+            <card title="Bidoof" type="colorless" img=""/>
+            <card title="Bibarel" type="colorless" img=""/>
+            <card title="Bouffalant" type="colorless" img=""/>
+            <card title="Bunnelby" type="colorless" img=""/>
+            <card title="Bunnelby" type="colorless" img=""/>
+            <card title="Acro Bike" type="trainer" img=""/>
+            <card title="Aggron Spirit Link" type="trainer" img=""/>
+            <card title="Archie's Ace in the Hole" type="trainer" img=""/>
+            <card title="Dive Ball" type="trainer" img=""/>
+            <card title="Energy Retrieval" type="trainer" img=""/>
+            <card title="Escape Rope" type="trainer" img=""/>
+            <card title="Exp. Share" type="trainer" img=""/>
+            <card title="Fresh Water Set" type="trainer" img=""/>
+            <card title="Gardevoir Spirit Link" type="trainer" img=""/>
+            <card title="Groudon Spirit Link" type="trainer" img=""/>
+            <card title="Kyogre Spirit Link" type="trainer" img=""/>
+            <card title="Maxie's Hidden Ball Trick" type="trainer" img=""/>
+            <card title="Professor Birch's Observations" type="trainer" img=""/>
+            <card title="Rare Candy" type="trainer" img=""/>
+            <card title="Repeat Ball" type="trainer" img=""/>
+            <card title="Rough Seas" type="trainer" img=""/>
+            <card title="Scorched Earth" type="trainer" img=""/>
+            <card title="Shrine of Memories" type="trainer" img=""/>
+            <card title="Silent Lab" type="trainer" img=""/>
+            <card title="Teammates" type="trainer" img=""/>
+            <card title="Weakness Policy" type="trainer" img=""/>
+            <card title="Shield Energy" type="steel" img=""/>
+            <card title="Wonder Energy" type="fairy" img=""/>
+            <card title="Enhanced Hammer" type="trainer" img=""/>
+            <card title="Switch" type="trainer" img=""/>
+        </set>
+        <set title = "Phantom Forces" img="Set_Symbols/SetSymbolPhantom_Forces.png">
+            <card title="Venonat" type="grass" img=""/>
+            <card title="Venomoth" type="grass" img=""/>
+            <card title="Yanma" type="grass" img=""/>
+            <card title="Yanmega" type="grass" img=""/>
+            <card title="Sewaddle" type="grass" img=""/>
+            <card title="Swadloon" type="grass" img=""/>
+            <card title="Leavanny" type="grass" img=""/>
+            <card title="Karrablast" type="grass" img=""/>
+            <card title="Fletchinder" type="fire" img=""/>
+            <card title="Talonflame" type="fire" img=""/>
+            <card title="Litleo" type="fire" img=""/>
+            <card title="Pyroar" type="fire" img=""/>
+            <card title="Krabby" type="water" img=""/>
+            <card title="Kingler" type="water" img=""/>
+            <card title="Totodile" type="water" img=""/>
+            <card title="Croconaw" type="water" img=""/>
+            <card title="Feraligatr" type="water" img=""/>
+            <card title="Finneon" type="water" img=""/>
+            <card title="Lumineon" type="water" img=""/>
+            <card title="Frillish" type="water" img=""/>
+            <card title="Jellicent" type="water" img=""/>
+            <card title="Alomomola" type="water" img=""/>
+            <card title="Manectric EX" type="lightning" img=""/>
+            <card title="M Manectric EX" type="lightning" img=""/>
+            <card title="Pachirisu" type="lightning" img=""/>
+            <card title="Joltik" type="lightning" img=""/>
+            <card title="Galvantula" type="lightning" img=""/>
+            <card title="Helioptile" type="lightning" img=""/>
+            <card title="Helioptile" type="lightning" img=""/>
+            <card title="Heliolisk" type="lightning" img=""/>
+            <card title="Zubat" type="psychic" img=""/>
+            <card title="Golbat" type="psychic" img=""/>
+            <card title="Crobat" type="psychic" img=""/>
+            <card title="Gengar EX" type="psychic" img=""/>
+            <card title="M Gengar EX" type="psychic" img=""/>
+            <card title="Wobbuffet" type="psychic" img=""/>
+            <card title="Gulpin" type="psychic" img=""/>
+            <card title="Swalot" type="psychic" img=""/>
+            <card title="Munna" type="psychic" img=""/>
+            <card title="Musharna" type="psychic" img=""/>
+            <card title="Litwick" type="psychic" img=""/>
+            <card title="Lampent" type="psychic" img=""/>
+            <card title="Chandelure" type="psychic" img=""/>
+            <card title="Pumpkaboo" type="psychic" img=""/>
+            <card title="Gourgeist" type="psychic" img=""/>
+            <card title="Gligar" type="fighting" img=""/>
+            <card title="Gliscor" type="fighting" img=""/>
+            <card title="Roggenrola" type="fighting" img=""/>
+            <card title="Boldore" type="fighting" img=""/>
+            <card title="Gigalith" type="fighting" img=""/>
+            <card title="Murkrow" type="dark" img=""/>
+            <card title="Honchkrow" type="dark" img=""/>
+            <card title="Poochyena" type="dark" img=""/>
+            <card title="Mightyena" type="dark" img=""/>
+            <card title="Spiritomb" type="dark" img=""/>
+            <card title="Purrloin" type="dark" img=""/>
+            <card title="Liepard" type="dark" img=""/>
+            <card title="Malamar EX" type="dark" img=""/>
+            <card title="Skarmory" type="steel" img=""/>
+            <card title="Bronzor" type="steel" img=""/>
+            <card title="Bronzong" type="steel" img=""/>
+            <card title="Dialga EX" type="steel" img=""/>
+            <card title="Heatran" type="steel" img=""/>
+            <card title="Escavalier" type="steel" img=""/>
+            <card title="Aegislash EX" type="steel" img=""/>
+            <card title="Klefki" type="steel" img=""/>
+            <card title="Florges EX" type="fairy" img=""/>
+            <card title="Swirlix" type="fairy" img=""/>
+            <card title="Slurpuff" type="fairy" img=""/>
+            <card title="Dedenne" type="fairy" img=""/>
+            <card title="Diancie" type="fairy" img=""/>
+            <card title="Deino" type="dragon" img=""/>
+            <card title="Zweilous" type="dragon" img=""/>
+            <card title="Hydreigon" type="dragon" img=""/>
+            <card title="Goomy" type="dragon" img=""/>
+            <card title="Sliggoo" type="dragon" img=""/>
+            <card title="Goodra" type="dragon" img=""/>
+            <card title="Spearow" type="colorless" img=""/>
+            <card title="Fearow" type="colorless" img=""/>
+            <card title="Chansey" type="colorless" img=""/>
+            <card title="Blissey" type="colorless" img=""/>
+            <card title="Girafarig" type="colorless" img=""/>
+            <card title="Whismur" type="colorless" img=""/>
+            <card title="Loudred" type="colorless" img=""/>
+            <card title="Exploud" type="colorless" img=""/>
+            <card title="Regigigas" type="colorless" img=""/>
+            <card title="Bunnelby" type="colorless" img=""/>
+            <card title="Diggersby" type="colorless" img=""/>
+            <card title="Fletchling" type="colorless" img=""/>
+            <card title="Furfrou" type="colorless" img=""/>
+            <card title="AZ" type="trainer" img=""/>
+            <card title="Battle Compressor" type="trainer" img=""/>
+            <card title="Dimension Valley" type="trainer" img=""/>
+            <card title="Enhanced Hammer" type="trainer" img=""/>
+            <card title="Gengar Spirit Link" type="trainer" img=""/>
+            <card title="Hand Scope" type="trainer" img=""/>
+            <card title="Head Ringer" type="trainer" img=""/>
+            <card title="Jamming Net" type="trainer" img=""/>
+            <card title="Lysandre's Trump Card" type="trainer" img=""/>
+            <card title="Manectric Spirit Link" type="trainer" img=""/>
+            <card title="Professor Sycamore" type="trainer" img=""/>
+            <card title="Robo Substitute" type="trainer" img=""/>
+            <card title="Roller Skates" type="trainer" img=""/>
+            <card title="Shauna" type="trainer" img=""/>
+            <card title="Steel Shelter" type="trainer" img=""/>
+            <card title="Target Whistle" type="trainer" img=""/>
+            <card title="Tierno" type="trainer" img=""/>
+            <card title="Trick Coin" type="trainer" img=""/>
+            <card title="VS Seeker" type="trainer" img=""/>
+            <card title="Xerosic" type="trainer" img=""/>
+            <card title="Double Colorless Enegry" type="colorless" img=""/>
+            <card title="Mystery Energy" type="psychic" img=""/>
+        </set>
+        <set title = "Furious Fists" img="Set_Symbols/SetSymbolFurious_Fists.png">
+            <card title="Bellsprout" type="grass" img=""/>
+            <card title="Weepinbell" type="grass" img=""/>
+            <card title="Victreebel" type="grass" img=""/>
+            <card title="Heracross EX" type="grass" img=""/>
+            <card title="M Heracross EX" type="grass" img=""/>
+            <card title="Shroomish" type="grass" img=""/>
+            <card title="Leafeon" type="grass" img=""/>
+            <card title="Shelmet" type="grass" img=""/>
+            <card title="Accelgor" type="grass" img=""/>
+            <card title="Magmar" type="fire" img=""/>
+            <card title="Magmortar" type="fire" img=""/>
+            <card title="Torchic" type="fire" img=""/>
+            <card title="Combusken" type="fire" img=""/>
+            <card title="Blaziken" type="fire" img=""/>
+            <card title="Poliwag" type="water" img=""/>
+            <card title="Poliwhirl" type="water" img=""/>
+            <card title="Poliwrath" type="water" img=""/>
+            <card title="Politoed" type="water" img=""/>
+            <card title="Glaceon" type="water" img=""/>
+            <card title="Seismitoad EX" type="water" img=""/>
+            <card title="Cubchoo" type="water" img=""/>
+            <card title="Beartic" type="water" img=""/>
+            <card title="Clauncher" type="water" img=""/>
+            <card title="Clawitzer" type="water" img=""/>
+            <card title="Amaura" type="water" img=""/>
+            <card title="Aurorus" type="water" img=""/>
+            <card title="Pikachu" type="lightning" img=""/>
+            <card title="Raichu" type="lightning" img=""/>
+            <card title="Electabuzz" type="lightning" img=""/>
+            <card title="Electivire" type="lightning" img=""/>
+            <card title="Plusle" type="lightning" img=""/>
+            <card title="Minun" type="lightning" img=""/>
+            <card title="Thundurus" type="lightning" img=""/>
+            <card title="Dedenne" type="lightning" img=""/>
+            <card title="Drowzee" type="psychic" img=""/>
+            <card title="Hypno" type="psychic" img=""/>
+            <card title="Jynx" type="psychic" img=""/>
+            <card title="Skorupi" type="psychic" img=""/>
+            <card title="Gothita" type="psychic" img=""/>
+            <card title="Gothorita" type="psychic" img=""/>
+            <card title="Gothitelle" type="psychic" img=""/>
+            <card title="Golett" type="psychic" img=""/>
+            <card title="Golurk" type="psychic" img=""/>
+            <card title="Machop" type="fighting" img=""/>
+            <card title="Machoke" type="fighting" img=""/>
+            <card title="Machamp" type="fighting" img=""/>
+            <card title="Hitmonlee" type="fighting" img=""/>
+            <card title="Hitmonchan" type="fighting" img=""/>
+            <card title="Hitmontop" type="fighting" img=""/>
+            <card title="Breloom" type="fighting" img=""/>
+            <card title="Makuhita" type="fighting" img=""/>
+            <card title="Hariyama" type="fighting" img=""/>
+            <card title="Trapinch" type="fighting" img=""/>
+            <card title="Lucario EX" type="fighting" img=""/>
+            <card title="M Lucario EX" type="fighting" img=""/>
+            <card title="Mienfoo" type="fighting" img=""/>
+            <card title="Mienshao" type="fighting" img=""/>
+            <card title="Landorus" type="fighting" img=""/>
+            <card title="Pancham" type="fighting" img=""/>
+            <card title="Pancham" type="fighting" img=""/>
+            <card title="Tyrunt" type="fighting" img=""/>
+            <card title="Tyrantrum" type="fighting" img=""/>
+            <card title="Hawlucha" type="fighting" img=""/>
+            <card title="Hawlucha EX" type="fighting" img=""/>
+            <card title="Drapion" type="dark" img=""/>
+            <card title="Scraggy" type="dark" img=""/>
+            <card title="Scrafty" type="dark" img=""/>
+            <card title="Pangoro" type="dark" img=""/>
+            <card title="Clefairy" type="fairy" img=""/>
+            <card title="Clefairy" type="fairy" img=""/>
+            <card title="Clefable" type="fairy" img=""/>
+            <card title="Sylveon" type="fairy" img=""/>
+            <card title="Klefki" type="fairy" img=""/>
+            <card title="Dragonite EX" type="dragon" img=""/>
+            <card title="Vibrava" type="dragon" img=""/>
+            <card title="Flygon" type="dragon" img=""/>
+            <card title="Noivern" type="dragon" img=""/>
+            <card title="Lickitung" type="colorless" img=""/>
+            <card title="Lickilicky" type="colorless" img=""/>
+            <card title="Eevee" type="colorless" img=""/>
+            <card title="Slakoth" type="colorless" img=""/>
+            <card title="Vigoroth" type="colorless" img=""/>
+            <card title="Slaking" type="colorless" img=""/>
+            <card title="Patrat" type="colorless" img=""/>
+            <card title="Watchog" type="colorless" img=""/>
+            <card title="Tornadus" type="colorless" img=""/>
+            <card title="Noibat" type="colorless" img=""/>
+            <card title="Battle Reporter" type="trainer" img=""/>
+            <card title="Energy Switch" type="trainer" img=""/>
+            <card title="Fighting Stadium" type="trainer" img=""/>
+            <card title="Focus Sash" type="trainer" img=""/>
+            <card title="Fossil Researcher" type="trainer" img=""/>
+            <card title="Full Heal" type="trainer" img=""/>
+            <card title="Jaw Fossil" type="trainer" img=""/>
+            <card title="Korrina" type="trainer" img=""/>
+            <card title="Maintenance" type="trainer" img=""/>
+            <card title="Mountain Ring" type="trainer" img=""/>
+            <card title="Sail Fossil" type="trainer" img=""/>
+            <card title="Sparkling Robe" type="trainer" img=""/>
+            <card title="Super Scoop Up" type="trainer" img=""/>
+            <card title="Tool Retriever" type="trainer" img=""/>
+            <card title="Training Center" type="trainer" img=""/>
+            <card title="Herbal Energy" type="grass" img=""/>
+            <card title="Strong Energy" type="fighting" img=""/>
+        </set>
+        <set title = "FlashFire" img="Set_Symbols/SetSymbolFlashfire.png">
+            <card title="Caterpie" type="grass" img=""/>
+            <card title="Metapod" type="grass" img=""/>
+            <card title="Butterfree" type="grass" img=""/>
+            <card title="Pineco" type="grass" img=""/>
+            <card title="Seedot" type="grass" img=""/>
+            <card title="Nuzleaf" type="grass" img=""/>
+            <card title="Shiftry" type="grass" img=""/>
+            <card title="Roselia" type="grass" img=""/>
+            <card title="Roserade" type="grass" img=""/>
+            <card title="Maractus" type="grass" img=""/>
+            <card title="Charizard EX" type="fire" img=""/>
+            <card title="Charizard EX" type="fire" img=""/>
+            <card title="M Charizard EX" type="fire" img=""/>
+            <card title="Ponyta" type="fire" img=""/>
+            <card title="Rapidash" type="fire" img=""/>
+            <card title="Torkoal" type="fire" img=""/>
+            <card title="Fletchinder" type="fire" img=""/>
+            <card title="Litleo" type="fire" img=""/>
+            <card title="Litleo" type="fire" img=""/>
+            <card title="Pyroar" type="fire" img=""/>
+            <card title="Qwilfish" type="water" img=""/>
+            <card title="Feebas" type="water" img=""/>
+            <card title="Milotic" type="water" img=""/>
+            <card title="Spheal" type="water" img=""/>
+            <card title="Sealeo" type="water" img=""/>
+            <card title="Walrein" type="water" img=""/>
+            <card title="Luvdisc" type="water" img=""/>
+            <card title="Buizel" type="water" img=""/>
+            <card title="Floatzel" type="water" img=""/>
+            <card title="Bergmite" type="water" img=""/>
+            <card title="Avalugg" type="water" img=""/>
+            <card title="Shinx" type="lightning" img=""/>
+            <card title="Luxio" type="lightning" img=""/>
+            <card title="Luxray" type="lightning" img=""/>
+            <card title="Magnezone EX" type="lightning" img=""/>
+            <card title="Helioptile" type="lightning" img=""/>
+            <card title="Heliolisk" type="lightning" img=""/>
+            <card title="Duskull" type="psychic" img=""/>
+            <card title="Dusclops" type="psychic" img=""/>
+            <card title="Dusknoir" type="psychic" img=""/>
+            <card title="Toxicroak EX" type="psychic" img=""/>
+            <card title="Espurr" type="psychic" img=""/>
+            <card title="Meowstic" type="psychic" img=""/>
+            <card title="Skrelp" type="psychic" img=""/>
+            <card title="Geodude" type="fighting" img=""/>
+            <card title="Graveler" type="fighting" img=""/>
+            <card title="Golem" type="fighting" img=""/>
+            <card title="Binacle" type="fighting" img=""/>
+            <card title="Barbaracle" type="fighting" img=""/>
+            <card title="Sneasel" type="dark" img=""/>
+            <card title="Sneasel" type="dark" img=""/>
+            <card title="Weavile" type="dark" img=""/>
+            <card title="Stunky" type="dark" img=""/>
+            <card title="Stunky" type="dark" img=""/>
+            <card title="Skuntank" type="dark" img=""/>
+            <card title="Sandile" type="dark" img=""/>
+            <card title="Krokorok" type="dark" img=""/>
+            <card title="Scraggy" type="dark" img=""/>
+            <card title="Scrafty" type="dark" img=""/>
+            <card title="Forretress" type="steel" img=""/>
+            <card title="Durant" type="steel" img=""/>
+            <card title="Flabebe" type="fairy" img=""/>
+            <card title="Flabebe" type="fairy" img=""/>
+            <card title="Floate" type="fairy" img=""/>
+            <card title="Floate" type="fairy" img=""/>
+            <card title="Florges" type="fairy" img=""/>
+            <card title="Spritzee" type="fairy" img=""/>
+            <card title="Carbink" type="fairy" img=""/>
+            <card title="M Charizard EX" type="dragon" img=""/>
+            <card title="Druddigon" type="dragon" img=""/>
+            <card title="Dragalge" type="dragon" img=""/>
+            <card title="Goomy" type="dragon" img=""/>
+            <card title="Sliggoo" type="dragon" img=""/>
+            <card title="Goodra" type="dragon" img=""/>
+            <card title="Pidgey" type="colorless" img=""/>
+            <card title="Pidgeotto" type="colorless" img=""/>
+            <card title="Pidgeot" type="colorless" img=""/>
+            <card title="Kangaskhan EX" type="colorless" img=""/>
+            <card title="M Kangaskhan EX" type="colorless" img=""/>
+            <card title="Snorlax" type="colorless" img=""/>
+            <card title="Sentret" type="colorless" img=""/>
+            <card title="Furret" type="colorless" img=""/>
+            <card title="Miltank" type="colorless" img=""/>
+            <card title="Buneary" type="colorless" img=""/>
+            <card title="Lopunny" type="colorless" img=""/>
+            <card title="Fletchling" type="colorless" img=""/>
+            <card title="Furfrou" type="colorless" img=""/>
+            <card title="Blacksmith" type="trainer" img=""/>
+            <card title="Fiery Torch" type="trainer" img=""/>
+            <card title="Lysandre" type="trainer" img=""/>
+            <card title="Magnetic Storm" type="trainer" img=""/>
+            <card title="Pal Pad" type="trainer" img=""/>
+            <card title="Pokemon Center Lady" type="trainer" img=""/>
+            <card title="Pokemon Fan Club" type="trainer" img=""/>
+            <card title="Protection Cube" type="trainer" img=""/>
+            <card title="Sacred Ash" type="trainer" img=""/>
+            <card title="Startling Megaphone" type="trainer" img=""/>
+            <card title="Trick Shovel" type="trainer" img=""/>
+            <card title="Ultra Ball" type="trainer" img=""/>
+        </set>
+        <set title = "XY" img="Set_Symbols/SetSymbolXY.png">
             <card title="Venusaur EX" type="grass" img="XY_Base/1048210.png"/>
             <card title="M Venusaur EX" type="grass" img="XY_Base/1048211.png"/>
             <card title="Chesnaught" type="grass" img="XY_Base/1048212.png"/>

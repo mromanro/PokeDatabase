@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import org.w3c.dom.Element;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -18,14 +20,14 @@ import java.util.Arrays;
  */
 public class SetListFragment extends ListFragment {
 
-    ArrayList<String> list;
+    ArrayList<ListItem> list;
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
 
         Bundle bundle = new Bundle();
         bundle.putInt("Position", position);
-        bundle.putString("Setlist", list.get(position));
+        bundle.putString("Setlist", list.get(position).title);
 
         Manager.SET_POSITION = position;
 
@@ -46,16 +48,26 @@ public class SetListFragment extends ListFragment {
         Bundle bundle = getArguments();
         int position = bundle.getInt("Position");
 
-        String[] elements = XMLParser.getChildElements("group", position);
+        Element[] elements = XMLParser.getChildElementsByPosition("group", position);
 
         list = new ArrayList<>(elements.length);
-        list.addAll(Arrays.asList(elements));
 
+        for(int i = 0; i < elements.length; i++) {
+            list.add(new ListItem(elements[i].getAttribute("title"),
+                                  elements[i].getAttribute("img")));
+        }
 
+        CustomAdapter adapter = new CustomAdapter(inflater.getContext(), R.layout.poke_list_item_1,
+                list);
+        setListAdapter(adapter);
+
+        /*
         ArrayAdapter adapter = new ArrayAdapter<>(inflater.getContext(),
                 android.R.layout.simple_list_item_1, list);
         setListAdapter(adapter);
+        */
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 }
+

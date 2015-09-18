@@ -1,7 +1,5 @@
 package com.fauxbunnies.pokedatabase;
 
-import android.media.Image;
-
 /**
  * Created by MacAir on 9/6/15.
  */
@@ -11,27 +9,25 @@ public class Card extends ListItem{
     public String type;
 
     public Card(String title, String image) {
-        super(null, title);
+        super(title);
         this.image = image;
     }
 
     public Card(String title, String image, String type) {
-        super(null, title);
+        super(title);
         this.image = image;
         this.type = type;
         setTypeImage(type);
     }
 
     public Card(String title, String image, String type, String typeImage) {
-        super(typeImage, title);
+        super(title, typeImage);
         this.image = image;
         this.type = type;
         setTypeImage(type);
     }
 
     public void setTypeImage(String type) {
-        System.out.println("TYPE: " + type);
-
         if(type.equals("fire")) {
             this.imageSrc = "Pokemon/Fire-attack.png";
         }
@@ -65,12 +61,9 @@ public class Card extends ListItem{
         else if(type.equals("dragon")) {
             this.imageSrc = "Pokemon/Dragon-attack.png";
         }
-
-        System.out.println("CARDS IMAGE: " + this.imageSrc);
+        else if(type.equals("trainer")) {
+            this.imageSrc = "Pokemon/trainer-attack.png";
+        }
     }
 
-    @Override
-    public String toString() {
-        return title;
-    }
 }
