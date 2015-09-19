@@ -20,6 +20,12 @@ public class CardFragment extends Fragment {
     private String imgSource;
 
     @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.card_layout, container, false);
@@ -31,8 +37,9 @@ public class CardFragment extends Fragment {
         imgSource = bundle.getString("ImageSource");
 
 
-        imageView.setImageDrawable(Manager.getImageFromSrc(imgSource, inflater.getContext()));
-
+        if(imgSource != null) {
+            imageView.setImageDrawable(Manager.getImageFromSrc(imgSource, inflater.getContext()));
+        }
         return view;
     }
 

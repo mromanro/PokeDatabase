@@ -23,6 +23,12 @@ public class SetListFragment extends ListFragment {
     ArrayList<ListItem> list;
 
     @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
 
         Bundle bundle = new Bundle();

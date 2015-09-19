@@ -40,7 +40,6 @@ public class CustomAdapter extends ArrayAdapter<ListItem> {
             TextView textView = (TextView) view.findViewById(R.id.list_item_title);
 
             if(imageView != null) {
-                System.out.println("IMAGE: " + item.imageSrc);
                 imageView.setImageDrawable(Manager.getImageFromSrc(item.imageSrc,
                                                                     parent.getContext()));
             }

@@ -20,23 +20,11 @@ public class MainActivity extends Activity {
     private ImageView splash;
     private ListView pokemonSets;
 
-    /*private Handler splashHandler = new Handler() {
-
-        @Override
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-                case STOPSPLASH:
-                    splash.setVisibility(View.GONE);
-                    break;
-            }
-            super.handleMessage(msg);
-        }
-    };*/
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         InputStream is = getResources().openRawResource(R.raw.cards);
         XMLParser.parseFile(is);
@@ -50,12 +38,6 @@ public class MainActivity extends Activity {
             ft.add(android.R.id.content, groupListFragment);
             ft.commit();
         }
-        /*
-        splash = (ImageView) findViewById(R.id.splashimage);
-        Message msg = new Message();
-        msg.what = STOPSPLASH;
-        splashHandler.sendMessageDelayed(msg, SPLASHTIME);
-         */
     }
 
     @Override

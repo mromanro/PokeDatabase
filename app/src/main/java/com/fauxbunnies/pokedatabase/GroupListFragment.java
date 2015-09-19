@@ -21,6 +21,12 @@ public class GroupListFragment extends ListFragment {
     ArrayList<String> list;
 
     @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
 
         Bundle bundle = new Bundle();
