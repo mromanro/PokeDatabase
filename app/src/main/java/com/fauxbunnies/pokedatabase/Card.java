@@ -62,7 +62,7 @@ public class Card extends ListItem{
             this.imageSrc = "Pokemon/Dragon-attack.png";
         }
         else if(type.equals("trainer")) {
-            this.imageSrc = "Pokemon/trainer-attack.png";
+            this.imageSrc = "Pokemon/poke-attack.png";
         }
     }
 

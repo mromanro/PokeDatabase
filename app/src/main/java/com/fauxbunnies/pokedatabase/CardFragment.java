@@ -37,7 +37,7 @@ public class CardFragment extends Fragment {
         imgSource = bundle.getString("ImageSource");
 
 
-        if(imgSource != null) {
+        if(!imgSource.isEmpty()) {
             imageView.setImageDrawable(Manager.getImageFromSrc(imgSource, inflater.getContext()));
         }
         return view;
