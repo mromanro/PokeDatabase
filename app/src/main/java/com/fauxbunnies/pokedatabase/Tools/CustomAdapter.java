@@ -1,4 +1,4 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Tools;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.fauxbunnies.pokedatabase.R;
 
 import java.util.List;
 
@@ -41,11 +43,22 @@ public class CustomAdapter extends ArrayAdapter<ListItem> {
 
             if(imageView != null) {
                 imageView.setImageDrawable(Manager.getImageFromSrc(item.imageSrc,
-                                                                    parent.getContext()));
+                        parent.getContext()));
             }
 
             if(textView != null) {
                 textView.setText(item.title);
+            }
+
+            if(item instanceof Card) {
+                Card card = (Card) item;
+                ImageView isEX = (ImageView) view.findViewById(R.id.isEX_image);
+                System.out.println("IS EX: " + Card.isEX);
+
+                if(card.isEX == true) {
+                    isEX.setImageDrawable(Manager.getImageFromSrc("Pokemon/Pokemon_EX.png",
+                                                                    parent.getContext()));
+                }
             }
         }
 

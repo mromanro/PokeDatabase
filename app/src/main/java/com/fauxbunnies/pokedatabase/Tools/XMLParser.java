@@ -1,4 +1,4 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Tools;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

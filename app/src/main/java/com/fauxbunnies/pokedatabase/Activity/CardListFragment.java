@@ -1,4 +1,4 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Activity;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -10,13 +10,16 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.fauxbunnies.pokedatabase.Tools.Card;
+import com.fauxbunnies.pokedatabase.Tools.CustomAdapter;
+import com.fauxbunnies.pokedatabase.R;
+import com.fauxbunnies.pokedatabase.Tools.XMLParser;
 
 import org.w3c.dom.Element;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by MacAir on 9/6/15.
@@ -57,7 +60,9 @@ public class CardListFragment extends ListFragment{
         for(int i = 0; i < elements.length; i++) {
             list.add(new Card(elements[i].getAttribute("title"),
                               elements[i].getAttribute("img"),
-                              elements[i].getAttribute("type")));
+                              elements[i].getAttribute("type"),
+                              elements[i].getAttribute("isEX"),
+                              elements[i].getAttribute("isMega")));
         }
 
         CustomAdapter adapter = new CustomAdapter(inflater.getContext(), R.layout.poke_list_item_1,
@@ -95,9 +100,5 @@ public class CardListFragment extends ListFragment{
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.menu_main, menu);
-    }
-
-    public void sortListBy(String sortBy) {
-
     }
 }

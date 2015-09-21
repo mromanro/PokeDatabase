@@ -1,4 +1,4 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Activity;
 
 /**
  * Created by MacAir on 9/6/15.

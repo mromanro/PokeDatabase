@@ -607,9 +607,9 @@
             <card title="Roselia" type="grass" img=""/>
             <card title="Roserade" type="grass" img=""/>
             <card title="Maractus" type="grass" img=""/>
-            <card title="Charizard EX" type="fire" img=""/>
-            <card title="Charizard EX" type="fire" img=""/>
-            <card title="M Charizard EX" type="fire" img=""/>
+            <card title="Charizard EX" type="fire" img="" isEX="true"/>
+            <card title="Charizard EX" type="fire" img="" isEX="true"/>
+            <card title="M Charizard EX" type="fire" img="" isEX="true" isMega="true"/>
             <card title="Ponyta" type="fire" img=""/>
             <card title="Rapidash" type="fire" img=""/>
             <card title="Torkoal" type="fire" img=""/>
@@ -631,13 +631,13 @@
             <card title="Shinx" type="lightning" img=""/>
             <card title="Luxio" type="lightning" img=""/>
             <card title="Luxray" type="lightning" img=""/>
-            <card title="Magnezone EX" type="lightning" img=""/>
+            <card title="Magnezone EX" type="lightning" img="" isEX="true"/>
             <card title="Helioptile" type="lightning" img=""/>
             <card title="Heliolisk" type="lightning" img=""/>
             <card title="Duskull" type="psychic" img=""/>
             <card title="Dusclops" type="psychic" img=""/>
             <card title="Dusknoir" type="psychic" img=""/>
-            <card title="Toxicroak EX" type="psychic" img=""/>
+            <card title="Toxicroak EX" type="psychic" img="" isEX="true"/>
             <card title="Espurr" type="psychic" img=""/>
             <card title="Meowstic" type="psychic" img=""/>
             <card title="Skrelp" type="psychic" img=""/>
@@ -665,7 +665,7 @@
             <card title="Florges" type="fairy" img=""/>
             <card title="Spritzee" type="fairy" img=""/>
             <card title="Carbink" type="fairy" img=""/>
-            <card title="M Charizard EX" type="dragon" img=""/>
+            <card title="M Charizard EX" type="dragon" img="" isEX="true" isMega="true"/>
             <card title="Druddigon" type="dragon" img=""/>
             <card title="Dragalge" type="dragon" img=""/>
             <card title="Goomy" type="dragon" img=""/>
@@ -674,8 +674,8 @@
             <card title="Pidgey" type="colorless" img=""/>
             <card title="Pidgeotto" type="colorless" img=""/>
             <card title="Pidgeot" type="colorless" img=""/>
-            <card title="Kangaskhan EX" type="colorless" img=""/>
-            <card title="M Kangaskhan EX" type="colorless" img=""/>
+            <card title="Kangaskhan EX" type="colorless" img="" isEX="true"/>
+            <card title="M Kangaskhan EX" type="colorless" img="" isEX="true" isMega="true"/>
             <card title="Snorlax" type="colorless" img=""/>
             <card title="Sentret" type="colorless" img=""/>
             <card title="Furret" type="colorless" img=""/>
@@ -698,11 +698,11 @@
             <card title="Ultra Ball" type="trainer" img=""/>
         </set>
         <set title = "XY" img="Set_Symbols/SetSymbolXY.png">
-            <card title="Venusaur EX" type="grass" img="XY_Base/1048210.png"/>
-            <card title="M Venusaur EX" type="grass" img="XY_Base/1048211.png"/>
+            <card title="Venusaur EX" type="grass" img="XY_Base/1048210.png" isEX="true"/>
+            <card title="M Venusaur EX" type="grass" img="XY_Base/1048211.png" isEX="true" isMega="true"/>
             <card title="Chesnaught" type="grass" img="XY_Base/1048212.png"/>
             <card title="Delphox" type="fire" img="XY_Base/1048213.png"/>
-            <card title="M Blastoise EX" type="water" img="XY_Base/1048215.png"/>
+            <card title="M Blastoise EX" type="water" img="XY_Base/1048215.png" isEX="true" isMega="true"/>
             <card title="Greninja" type="water" img="XY_Base/1048216.png"/>
             <card title="Yveltal" type="dark" img="XY_Base/1048217.png"/>
             <card title="Xerneas" type="fairy" img="XY_Base/1048219.png"/>
@@ -819,11 +819,11 @@
             <card title="Roller Skates" type="trainer" img="XY_Base/1050507.png"/>
             <card title="Super Potion" type="trainer" img="XY_Base/1050508.png"/>
             <card title="Rainbow Energy" type="energy" img="XY_Base/1050510.png"/>
-            <card title="Blastoise EX" type="water" img="XY_Base/1050521.png"/>
-            <card title="Emolga EX" type="lightning" img="XY_Base/1050522.png"/>
-            <card title="Yveltal EX" type="dark" img="XY_Base/1050523.png"/>
-            <card title="Skarmory EX" type="steel" img="XY_Base/1050524.png"/>
-            <card title="Xerneas EX" type="fairy" img="XY_Base/1050525.png"/>
+            <card title="Blastoise EX" type="water" img="XY_Base/1050521.png" isEX="true"/>
+            <card title="Emolga EX" type="lightning" img="XY_Base/1050522.png" isEX="true"/>
+            <card title="Yveltal EX" type="dark" img="XY_Base/1050523.png" isEX="true"/>
+            <card title="Skarmory EX" type="steel" img="XY_Base/1050524.png" isEX="true"/>
+            <card title="Xerneas EX" type="fairy" img="XY_Base/1050525.png" isEX="true"/>
             <card title="Vivillon" type="grass" img="XY_Base/1051068.png"/>
             <card title="Shauna" type="trainer" img="XY_Base/1066161.png"/>
         </set>

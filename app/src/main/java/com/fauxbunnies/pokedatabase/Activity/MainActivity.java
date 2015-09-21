@@ -1,4 +1,4 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Activity;
 
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -8,6 +8,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.ListView;
+
+import com.fauxbunnies.pokedatabase.R;
+import com.fauxbunnies.pokedatabase.Tools.XMLParser;
 
 import java.io.InputStream;
 
@@ -49,12 +52,6 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }

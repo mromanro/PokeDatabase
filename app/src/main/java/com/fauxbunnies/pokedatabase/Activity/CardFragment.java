@@ -1,14 +1,14 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Activity;
 
 import android.app.Fragment;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import java.io.InputStream;
+import com.fauxbunnies.pokedatabase.Tools.Manager;
+import com.fauxbunnies.pokedatabase.R;
 
 /**
  * Created by Miguel on 9/7/2015.

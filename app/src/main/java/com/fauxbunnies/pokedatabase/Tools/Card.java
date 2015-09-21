@@ -1,12 +1,14 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Tools;
 
 /**
  * Created by MacAir on 9/6/15.
  */
-public class Card extends ListItem{
+public class Card extends ListItem {
 
     public String image;
     public String type;
+    public static boolean isEX = false;
+    public boolean isMega = false;
 
     public Card(String title, String image) {
         super(title);
@@ -24,6 +26,21 @@ public class Card extends ListItem{
         super(title, typeImage);
         this.image = image;
         this.type = type;
+        setTypeImage(type);
+    }
+
+    public Card(String title, String image, String type, String isEX, String isMega) {
+        super(title);
+        this.image = image;
+        this.type = type;
+
+        if(isEX.equals("true")){
+            this.isEX = true;
+        }
+
+        if(isMega.equals("true")){
+            this.isMega = true;
+        }
         setTypeImage(type);
     }
 

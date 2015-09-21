@@ -1,8 +1,10 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Tools;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+
+import com.fauxbunnies.pokedatabase.R;
 
 import java.io.InputStream;
 import java.util.ArrayList;

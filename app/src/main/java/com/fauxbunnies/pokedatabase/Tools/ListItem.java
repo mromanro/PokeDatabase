@@ -1,4 +1,4 @@
-package com.fauxbunnies.pokedatabase;
+package com.fauxbunnies.pokedatabase.Tools;
 
 /**
  * Created by Miguel on 9/12/2015.
